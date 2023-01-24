@@ -1,5 +1,7 @@
-import { DateTime } from "./modules/luxon.js";
-import BookShelf from './modules/books.js'
+import { DateTime } from './modules/luxon.js';
+
+import BookShelf from './modules/books.js';
+
 const dt = DateTime.now();
 
 document.querySelector('.date').innerHTML = `${dt.day} ${dt.month}, ${dt.year} ${dt.hour}:${dt.minute}:${dt.second}`;
