@@ -10,7 +10,7 @@
       "sourceType": "module"
     },
     "extends": ["airbnb-base"],
-    "rules": "off";
+    "rules": "off",
     // {
     //   "no-shadow": "off",
     //   "no-param-reassign": "off",
