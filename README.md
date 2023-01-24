@@ -89,7 +89,7 @@
 
 > This link will guide you to my project
 
-- [Live Demo Link](https://dilsherb.github.io/awesome-books-ES6/)
+- [Live Demo Link](https://dilsherb.github.io/awesome-books-implimenting-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,7 +173,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/DilsherB/awesome-books-ES6/issues)).
+Feel free to check the [issues page](https://github.com/DilsherB/awesome-books-implimenting-ES6/issues)).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
