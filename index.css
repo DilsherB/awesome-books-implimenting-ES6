@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 50%;
+  min-height: calc(100vh - 140px);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  width: 55px;
+}
+
+.date {
+  display: flex;
+  justify-content: end;
+  margin: 10px 30px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+hr {
+  width: 80px;
+  align-items: center;
+  height: 2px;
+  background-color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+form input {
+  padding: 5px;
+}
+
+button {
+  width: 100px;
+  padding: 3px;
+}
+
+form div {
+  text-align: right;
+}
+
+nav,
+footer,
+.bookContainer {
+  border: 2px outset rgb(95, 93, 93);
+  border-radius: 5px;
+}
+
+.innerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 5px;
+}
+
+.innerContainer:nth-child(odd) {
+  background-color: rgb(231, 227, 227);
+}
+
+li {
+  cursor: pointer;
+}
+
+nav,
+footer {
+  position: relative;
+  padding: 0 10px;
+}
+
+footer {
+  margin: 20px 0 5px 0;
+}
