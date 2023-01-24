@@ -9,7 +9,7 @@ document.querySelector('.date').innerHTML = `${dt.day} ${dt.month}, ${dt.year} $
 
 const menuItems = document.querySelectorAll('li');
 const sections = document.querySelectorAll('section');
-function reset() {
+const reset = () => {
   sections.forEach((section) => {
     section.style.display = 'none';
   });
