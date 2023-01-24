@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { DateTime } from './modules/luxon.js';
 
 import BookShelf from './modules/books.js';

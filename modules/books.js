@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export default class BookShelf {
   constructor() {
     this.book = JSON.parse(localStorage.getItem('books')) || [];
