@@ -6,9 +6,9 @@ body {
 }
 
 main {
-  width: 50%;
-  min-height: calc(100vh - 140px);
-  max-width: 400px;
+  width: 60%;
+  min-height: calc(100vh - 170px);
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -16,6 +16,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 1px;
 }
 
 a {
@@ -101,5 +102,5 @@ footer {
 }
 
 footer {
-  margin: 20px 0 5px 0;
+  margin: 18px 1px 2px 1px;
 }
