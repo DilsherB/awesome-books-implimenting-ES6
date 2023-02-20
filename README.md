@@ -159,11 +159,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **Add navigation bar**
-- [ ] **improve functionality**
-- [ ] **improve styling**
+> This project is complete now!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,7 +203,5 @@ If you like my Project give it a Star ✨🌟
 - **[Question_2]**
 
   - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
