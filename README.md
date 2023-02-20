@@ -2,7 +2,7 @@
 <!-- the change -->
 <div align="center">
   <img src="./media/dilsher-logo.png" alt="logo" width="140"  height="auto" />
-  <img src="![site owner](media/DSB.jpeg)" alt="logo" width="140"  height="auto" />
+  <img src="![site owner](./media/DSB.png)" alt="logo" width="140"  height="auto" />
   <br/>
   <h1><b>Awesome Books with ES6</b><br><br></h1>
   
