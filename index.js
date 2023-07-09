@@ -3,9 +3,12 @@ import { DateTime } from './modules/luxon.js';
 
 import BookShelf from './modules/books.js';
 
-const dt = DateTime.now();
+const dateElement = document.querySelector('.date');
 
-document.querySelector('.date').innerHTML = `${dt.day} ${dt.month}, ${dt.year} ${dt.hour}:${dt.minute}:${dt.second}`;
+setInterval(() => {
+  const dt = DateTime.now();
+  dateElement.innerHTML = `${dt.day}, ${dt.month}, ${dt.year} ${dt.hour}:${dt.minute}:${dt.second}`;
+}, 1000);
 
 const menuItems = document.querySelectorAll('li');
 const sections = document.querySelectorAll('section');
