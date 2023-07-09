@@ -1,41 +1,41 @@
 /* eslint-disable linebreak-style */
-import { DateTime } from './modules/luxon.js';
+import { DateTime } from "./modules/luxon.js";
 
-import BookShelf from './modules/books.js';
+import BookShelf from "./modules/books.js";
 
-const dateElement = document.querySelector('.date');
+const dateElement = document.querySelector(".date");
 
-setInterval (() => {
+setInterval(() => {
   const dt = DateTime.now();
   dateElement.innerHTML = `${dt.day}, ${dt.month}, ${dt.year} ${dt.hour}:${dt.minute}:${dt.second}`;
-}, 1000)
+}, 1000);
 
-const menuItems = document.querySelectorAll('li');
-const sections = document.querySelectorAll('section');
+const menuItems = document.querySelectorAll("li");
+const sections = document.querySelectorAll("section");
 const reset = () => {
   sections.forEach((section) => {
-    section.style.display = 'none';
+    section.style.display = "none";
   });
 };
 reset();
-sections[0].style.display = 'block';
+sections[0].style.display = "block";
 
-menuItems[0].addEventListener('click', () => {
+menuItems[0].addEventListener("click", () => {
   reset();
-  sections[0].style.display = 'block';
+  sections[0].style.display = "block";
 });
 
-menuItems[1].addEventListener('click', () => {
+menuItems[1].addEventListener("click", () => {
   reset();
-  sections[1].style.display = 'block';
+  sections[1].style.display = "block";
 });
 
-menuItems[2].addEventListener('click', () => {
+menuItems[2].addEventListener("click", () => {
   reset();
-  sections[2].style.display = 'block';
+  sections[2].style.display = "block";
 });
 
-const bookContainer = document.querySelector('.bookContainer');
+const bookContainer = document.querySelector(".bookContainer");
 const g = new BookShelf();
 g.book.forEach((b) => {
   bookContainer.innerHTML += `
@@ -46,11 +46,11 @@ g.book.forEach((b) => {
     `;
 });
 
-bookContainer.addEventListener('click', (e) => {
-  const clickedBtn = e.target.closest('.removeBtn');
+bookContainer.addEventListener("click", (e) => {
+  const clickedBtn = e.target.closest(".removeBtn");
   if (!clickedBtn) return;
   const idToRemove = clickedBtn.id;
   g.removeBook(idToRemove);
 });
 
-document.querySelector('.addBtn').addEventListener('click', g.addBook);
+document.querySelector(".addBtn").addEventListener("click", g.addBook);
